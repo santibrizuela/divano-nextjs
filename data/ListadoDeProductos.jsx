@@ -1,4 +1,4 @@
-const productList = [
+const listadoDeProductos = [
     {
       id: 1,
       name: "Martillo",
@@ -23,9 +23,8 @@ const productList = [
       image: "https://example.com/taladro.jpg",
       slug: "taladro"
     },
-    // ...otros productos
   ];
 
 
-  export default productList
+  export default listadoDeProductos
   

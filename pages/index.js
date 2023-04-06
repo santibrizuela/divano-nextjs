@@ -23,8 +23,6 @@ export default function Home() {
       <Main/>
       <About/>
       <Catalogo/>
-      <Services/>
-      <Portfolio/>
       <Contact/>
     </div>
   )

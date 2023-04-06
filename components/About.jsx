@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import aboutImg from '../public/assets/logo-PhotoRoom.png'
+import ProductList from '../pages/product'
 
 const About = () => {
   return (
@@ -25,6 +26,7 @@ const About = () => {
                 cliente es siempre nuestra principal prioridad. Si buscas soluciones tecnológicas 
                 personalizadas y una colaboración de confianza, no busques más que Brisider.
                 </p>
+
 
 
                 <Link href='/#contact'>
