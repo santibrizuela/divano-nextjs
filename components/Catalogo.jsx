@@ -5,9 +5,8 @@ import compresorLabor from '../public/assets/compresorLabor.png'
 import amoladoraBanco from '../public/assets/amoladoraBancoDogo2.png'
 import pistolaPinturaDogo from '../public/assets/pistolaPinturaDogo.png'
 import pistolaCalorArgentec from '../public/assets/pistolaCalorArgentec.png'
-import mascaraSoldarFoxtter from '../public/assets/mascaraSoldarFoxtter.png'
-import taladroAcc from '../public/assets/taladroAcc.png'
 import CardProductItem from './CardProductItem'
+import  Link from 'next/link'
 
 
 
@@ -69,22 +68,15 @@ const Catalogo = () => {
                     projectUrl='/portfolioDivanoPage'
                     detail='DOGO.'
                 />
-
-                <CardProductItem
-                    title='Máscara para Soldar'
-                    backgroundImg={mascaraSoldarFoxtter}
-                    projectUrl='/portfolioFoodPage'
-                    detail='Foxtter.'
-                />
-
-                <CardProductItem
-                    title='Taladro Percutor'
-                    backgroundImg={taladroAcc}
-                    projectUrl='/portfolioMaderoPage'
-                    detail='Black & Decker.'
-                />
-
             </div>
+            
+            <Link href='/CatalogoFull'>
+                <p 
+                    className='p-2 rounded-lg btn text-gray-200 font-bold text-lg cursor-pointer w-fit m-auto shadow-xl hover:scale-105 ease-in duration-300'
+                >
+                    Ver Mas
+                </p>
+            </Link>
         </div>
     </div>
   )

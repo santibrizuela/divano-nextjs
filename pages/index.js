@@ -2,8 +2,6 @@ import Head from 'next/head'
 import Main from '../components/Main'
 import { Inter } from 'next/font/google'
 import About from '../components/About'
-import Services from '../components/Services'
-import Portfolio from '../components/Portfolio'
 import Contact from '../components/Contact'
 import Catalogo from '../components/Catalogo'
 
