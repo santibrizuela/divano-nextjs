@@ -6,10 +6,10 @@ import { BsPersonVcard } from 'react-icons/bs'
 const Footer = () => {
   return (
     
-    <div id='footer' className='w-full text-center bg-black/80 text-gray-300 lg:mt-[30rem] xl:mt-[22rem]'>
+    <div id='footer' className='w-full text-center bg-black/80 text-gray-300'>
         <div className='max-w-[1240px] mx-auto px-2'>
             <Link href='/'>
-                <h2 className='icolink ease-in duration-300 text-md py-4'>BRISIDER</h2>
+                <h2 className='icolink ease-in duration-300 text-md py-4'>DIVANO</h2>
             </Link>
             
             
@@ -45,20 +45,17 @@ const Footer = () => {
 
                 
               <div className="">
-                <h5 className="uppercase my-1">Navigation</h5>
+                <h5 className="uppercase my-1">Navegación</h5>
 
                 <ul className="list-unstyled mb-0">
                   <li>
-                    <a href="/#home" className="icolink">Home</a>
+                    <a href="/#home" className="icolink">Inicio</a>
                   </li>
                   <li>
-                    <a href="/#about" className="icolink">About us</a>
+                    <a href="/#about" className="icolink">Acerca de</a>
                   </li>
                   <li>
-                    <a href="/#services" className="icolink">Servicios</a>
-                  </li>
-                  <li>
-                    <a href="/#portfolio" className="icolink">Portfolio</a>
+                    <a href="/#catalogo" className="icolink">Catalogo</a>
                   </li>
                   <li>
                     <a href="/#contact" className="icolink">Contacto</a>
@@ -88,9 +85,9 @@ const Footer = () => {
               
               <div className="col-span-2 md:col-span-1">
                 <h5 className="uppercase my-1">Location</h5>
-                <p>Ciudad Madero, Buenos Aires, Argentina.</p>
-                <p>Lunes a viernes de 8:00 a 20:00 hs.</p>
-                <a href="https://wa.link/"  target="_blank" className="icolink underline">Whatsapp</a>
+                <p>Cnel. Thorne 831, Ciudad Madero, Buenos Aires, Argentina.</p>
+                <p>Lunes a viernes: 8hs a 12:30 / 16:30 a 20hs.</p>
+                <p>Sabados: 8 a 12:30hs.</p>
               </div>
              
                 
@@ -102,7 +99,7 @@ const Footer = () => {
             
         </div>
 
-        <p className='bg-black mt-2 py-4 text-sm'>Brisider © Todos los derechos reservados | Diseño y Desarrollo Web Brisider.</p>
+        <p className='bg-black mt-2 py-4 text-sm'>Ferretería Divano © Todos los derechos reservados | Diseño y Desarrollo Web Brisider.</p>
     </div>
   )
 }

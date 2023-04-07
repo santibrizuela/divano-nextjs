@@ -9,23 +9,18 @@ const About = () => {
     <div id='about' className='w-full md:h-screen py-20 md:p-2 flex items-center text-center'>
         <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
             <div className='col-span-2'>
-                <p className='uppercase text-xl tracking-widest text-blue-700'>Acerca de</p>
+                <p className='uppercase text-xl tracking-widest'>Acerca de</p>
                 <h2 className='py-4'><span className='text-blue-700 uppercase'>Divano</span></h2>
                 <p className='py-2 text-gray-600'>¡Nosotros lo tenemos!</p>
                 <p className='py-2 text-gray-600'>
-                En Brisider, nuestro equipo está compuesto por expertos Desarrollo Software y 
-                profesionales creativos en Diseño Gráfico, Branding y Manejo de Redes Sociales. Nos 
-                enorgullece trabajar con empresas de diversas escalas y sectores para ayudarles a 
-                alcanzar sus objetivos digitales. 
+                ¡Nosotros lo tenemos! Llevamos medio siglo ofreciendo asesoría a nuestros clientes, 
+                abasteciendo industrias y empresas nacionales con flujos contínuos de producción. 
+                Podemos decir que nuestra trayectoria respalda que seamos ubicados como proveedores 
+                líderes y garantiza el excelente servicio de venta y post-venta que ofrecemos en 
+                Ferretería Divano. 
                 </p>
 
-                <p className='py-2 text-gray-600'>
-                Cada proyecto que emprendemos se personaliza para satisfacer las necesidades específicas 
-                de nuestros clientes y para garantizar que sus expectativas sean superadas.
-                Estamos comprometidos con la excelencia en el servicio al cliente y la satisfacción del 
-                cliente es siempre nuestra principal prioridad. Si buscas soluciones tecnológicas 
-                personalizadas y una colaboración de confianza, no busques más que Brisider.
-                </p>
+                
 
 
 

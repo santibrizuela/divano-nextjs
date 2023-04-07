@@ -10,7 +10,7 @@ const Contact = () => {
   return (
     <div id='contact' className='w-full lg:h-screen'>
         <div className='max-w-[1240px] m-auto px-2 py-16 w-full'>
-            <p className='py-8 text-xl tracking-widest uppercase text-emerald-500 text-center'>Contacto</p>
+            <p className='py-8 text-xl tracking-widest uppercase text-blue-500 text-center'>Contacto</p>
             <h2 className='py-4 text-center'>Estemos en Contacto</h2>
             <div className='grid lg:grid-cols-5 gap-8'>
                 {/*left*/}
@@ -20,21 +20,21 @@ const Contact = () => {
                             <div className='grid gap-4 w-full py-2'>
 
                                 <div className='flex flex-col'>
-                                    <input className='border-2 rounded-lg p-3 flex border-gray-300' type="text" name="name" required placeholder='Nombre Completo'/>
+                                    <input className='border-2 rounded-lg p-3 flex border-gray-300' type="text" name="name" required placeholder='Nombre Completo:'/>
                                 </div>
 
                                 <div className='flex flex-col'>
-                                    <input className='border-2 rounded-lg p-3 flex border-gray-300' type="text" name="number" placeholder='1234567890'/>
+                                    <input className='border-2 rounded-lg p-3 flex border-gray-300' type="text" name="number" placeholder='Teléfono:'/>
                                 </div>
 
                                 <div className='flex flex-col'>
                                     <input className='border-2 rounded-lg p-3 flex border-gray-300' type="email" name="email" required placeholder='mail@mail.com'/>
                                 </div>
                                 <div className='flex flex-col'>
-                                    <input className='border-2 rounded-lg p-3 flex border-gray-300' type="text" name="issue" placeholder='Su asunto...'/>
+                                    <input className='border-2 rounded-lg p-3 flex border-gray-300' type="text" name="issue" placeholder='Su asunto:'/>
                                 </div>
                                 <div className='flex flex-col'>
-                                    <textarea className='border-2 rounded-lg p-3 border-gray-300' rows='10' name="message" required placeholder='Escribir aquí...'/>
+                                    <textarea className='border-2 rounded-lg p-3 border-gray-300' rows='10' name="message" required placeholder='Escribir aquí:'/>
                                 </div>
 
                             </div>
@@ -54,12 +54,13 @@ const Contact = () => {
                         </div>
                         <div className='text-center'>
                             
-                            <h2 className='py-4 text-gray-300'><span className='text-emerald-500 uppercase'>Brisider</span></h2>
-                            <p className='pb-1'>Digitalizamos tu marca</p>
+                            <h2 className='py-4 text-gray-300'><span className='text-blue-500 uppercase'>Divano</span></h2>
+                            <p className='pb-1'>¡Nosotros lo tenemos!</p>
                             
-                            <p>Ciudad Madero, Buenos Aires, Argentina.</p>
-                            <p>Lunes a viernes de 8:00 a 20:00 hs.</p>
-                            <p>brizuelasideravicius@gmail.com</p>
+                            <p>Cnel. Thorne 831, Ciudad Madero, <br /> Buenos Aires, Argentina.</p>
+                            <p>Lun a Vie: 8hs a 12hs - 14:30 a 18hs</p>
+                            <p>Sábados: 8hs a 12:30hs</p>
+                            <p>ferreteriaindustrialdivano@gmail.com</p>
                         </div>
                         <div className='text-center'>
                             <p className='uppercase pt-8'> Conecta con Nosotros</p>

@@ -63,19 +63,16 @@ const Navbar = () => {
               
                 className={shadow ? 'hidden md:flex font-semibold text-[#1f2937]' : 'hidden md:flex font-semibold text-gray-200'}>
                 <Link href='/'>
-                  <li className='ml-10 text-sm uppercase hover:text-emerald-500'>Inicio</li>
+                  <li className='ml-10 text-sm uppercase hover:text-blue-500'>Inicio</li>
                 </Link>
                 <Link href='/#about'>
-                  <li className='ml-10 text-sm uppercase hover:text-emerald-500'>Acerca de</li>
+                  <li className='ml-10 text-sm uppercase hover:text-blue-500'>Acerca de</li>
                 </Link>
-                <Link href='/#services'>
-                  <li className='ml-10 text-sm uppercase hover:text-emerald-500'>Servicios</li>
-                </Link>
-                <Link href='/#portfolio'>
-                  <li className='ml-10 text-sm uppercase hover:text-emerald-500'>Portfolio</li>
+                <Link href='/CatalogoFull'>
+                  <li className='ml-10 text-sm uppercase hover:text-blue-500'>Catálogo</li>
                 </Link>
                 <Link href='/#contact'>
-                  <li className='ml-10 text-sm uppercase hover:text-emerald-500'>Contacto</li>
+                  <li className='ml-10 text-sm uppercase hover:text-blue-500'>Contacto</li>
                 </Link>
               </ul>
               <div onClick={handleNav} className='md:hidden'>
@@ -107,7 +104,7 @@ const Navbar = () => {
                 </div>
               </div>
               <div className='border-b border-gray-300 my-4'>
-                <h3 className='w-[85%] md:w-[90%] py-4 text-emerald-500'>DIGITALIZAMOS TU MARCA</h3>
+                <h3 className='w-[85%] md:w-[90%] py-4 text-blue-500'>¡Nosotros lo tenemos!</h3>
               </div>
             </div>
             <div className='py-4 flex flex-col'>
@@ -118,12 +115,9 @@ const Navbar = () => {
                 <Link href='/#about'>
                 <li onClick={()=> setNav(false)} className='py-4 text-sm'>Acerca de</li>
                 </Link>
-                <Link href='/#services'>
-                <li onClick={()=> setNav(false)} className='py-4 text-sm'>Servicios</li>
-                </Link>
-                <Link href='/#portfolio'>
-                <li onClick={()=> setNav(false)} className='py-4 text-sm'>Portfolio</li>
-                </Link>
+                <Link href='/CatalogoFull'>
+                <li onClick={()=> setNav(false)} className='py-4 text-sm'>Catálogo</li>
+                </Link>                
                 <Link href='/#contact'>
                 <li onClick={()=> setNav(false)} className='py-4 text-sm'>Contacto</li>
                 </Link>

@@ -9,7 +9,7 @@ const Main = () => {
         <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
             <div>
                 <p className='uppercase text-sm tracking-widest text-gray-100 font-bold'>¡Nosotros lo tenemos!</p>
-                <h1 className='py-4 text-blue-700'>Ferretería Divano</h1>
+                <h1 className='py-4 text-blue-700'>DIVANO</h1>
                 <div className='flex items-center justify-between max-w-[330px] m-auto py-4 text-gray-300'>
                     <Link target='_blank' href='https://www.whatsapp.com/'>
                         <div className='rounded-full icolink shadow-lg shadow-grey-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
