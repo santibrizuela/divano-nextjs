@@ -1,10 +1,10 @@
 import Footer from '../components/Footer'
-import Navbar from '../components/Navbar'
+import Navbarb from '../components/Navbarb'
 import 'styles/globals.css'
 
 export default function App({ Component, pageProps }) {
   return <>
-    <Navbar/>
+    <Navbarb/>
     <Component {...pageProps} />
     <Footer/>
   </> 
