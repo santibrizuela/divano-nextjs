@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Main from '../components/Main'
 import { Inter } from 'next/font/google'
 import About from '../components/About'
+import Lines from '../components/Lines'
 import Contact from '../components/Contact'
 import Catalogo from '../components/Catalogo'
 import Map from '../components/Map'
@@ -21,6 +22,7 @@ export default function Home() {
       
       <Main/>
       <About/>
+      <Lines/>
       <Catalogo/>
       <Contact/>
       <Map/>
