@@ -59,7 +59,12 @@ const Navbarb = () => {
             {isOpen ? (
               <AiOutlineClose className="w-6 h-6 text-cyan-950" />
             ) : (
-              <AiOutlineMenu className="w-6 h-6" />
+              <AiOutlineMenu className={`w-6 h-6 
+              ${scrolled ? 
+                'text-gray-800' 
+                : 
+                'text-white'
+              }`} />
             )}
           </button>
         </div>

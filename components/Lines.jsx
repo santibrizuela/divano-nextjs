@@ -5,7 +5,7 @@ import {BsWhatsapp} from 'react-icons/bs'
 
 const Lines = () => {
   return (
-    <section id='lines' className='bg-blue-500'>
+    <section id='lines' className='bg-blue-500 text-gray-200'>
         <div className="lines__container flex justify-around text-center">
 
             <article className='line'>
