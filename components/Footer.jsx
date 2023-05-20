@@ -14,12 +14,12 @@ const Footer = () => {
             
             
             <div className='flex items-center justify-between max-w-[330px] m-auto py-4 text-gray-300'>
-                <Link target='_blank' href='https://www.whatsapp.com/'>
+                <Link target='_blank' href='https://www.whatsapp.com/quekoy'>
                     <div className='rounded-full icolink shadow-lg shadow-grey-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                         <AiOutlineWhatsApp/>
                     </div>
                 </Link>
-                <Link target='_blank' href='https://www.linkedin.com/'>
+                <Link target='_blank' href='https://www.linkedin.com/company/ferreteria-industrial-divano/'>
                     <div className='rounded-full icolink shadow-lg shadow-grey-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                         <AiOutlineLinkedin/>
                     </div>
@@ -29,12 +29,7 @@ const Footer = () => {
                         <AiOutlineMail/>
                     </div>
                 </Link>
-                <Link href='/#portfolio'>
-                    <div className='rounded-full icolink shadow-lg shadow-grey-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                        <BsPersonVcard/>
-                    </div>
-                </Link>
-                <Link target='_blank' href='https://www.instagram.com/'>
+                <Link target='_blank' href='https://www.instagram.com/ferreteriadivano/'>
                     <div className='rounded-full icolink shadow-lg shadow-grey-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                         <AiOutlineInstagram/>
                     </div>
@@ -68,17 +63,17 @@ const Footer = () => {
 
                 <ul className="list-unstyled mb-0">
                   <li>
-                    <a href="https://www.instagram.com/"  target="_blank" className="icolink">Instagram</a>
+                    <a href="https://www.instagram.com/ferreteriadivano/"  target="_blank" className="icolink">Instagram</a>
                   </li>
                   <li>
-                    <a href="https://www.facebook.com/"  target="_blank" className="icolink">Facebook</a>
+                    <a href="https://www.facebook.com/profile.php?id=100079284678037"  target="_blank" className="icolink">Facebook</a>
                   </li>
                   <li>
-                    <a href="https://wa.link/"  target="_blank" className="icolink">Whatsapp</a>
+                    <a href="https://wa.link/quekoy"  target="_blank" className="icolink">Whatsapp</a>
                   </li>
                   <li>
                     
-                    <a href="https://www.linkedin.com/" className="icolink" target="_blank">Linkedin</a>
+                    <a href="https://www.linkedin.com/company/ferreteria-industrial-divano/" className="icolink" target="_blank">Linkedin</a>
                   </li>
                 </ul>
               </div>

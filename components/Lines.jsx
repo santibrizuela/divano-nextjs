@@ -12,9 +12,8 @@ const Lines = () => {
                 <BsWhatsapp className='line__icon' />
                 <div className="line__head">
                     
-                    <h5>TELEFONOS</h5>
-                    <h4>4602-0696</h4>
-                    <h4>11-5939-3931</h4>
+                    <h5>TELEFONO</h5>
+                    <h4>11 5165-5081</h4>
                 </div>          
             </article>
 
@@ -25,7 +24,9 @@ const Lines = () => {
                 
                     <h5>HORARIO</h5>
                     <h4>Lunes a Viernes:</h4>
-                    <h4>9-12hs/13:15-16hs</h4>
+                    <h4>8hs a 12:30 / 16:30 a 20hs</h4>
+                    <h4>Sábados:</h4>
+                    <h4>8hs a 12:30</h4>
                 </div>
             </article>
 
@@ -35,8 +36,8 @@ const Lines = () => {
                 
                     
                     <h5>UBICACION</h5>
-                    <h4>CABA,</h4>
-                    <h4>Fonrouge 3870</h4>
+                    <h4>CIUADAD MADERO,</h4>
+                    <h4>Cnel. Thorne 831</h4>
                 </div>
             </article>
         </div>

@@ -16,7 +16,7 @@ const Contact = () => {
                 {/*left*/}
                 <div className='col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4 scale-90 hover:scale-100 ease-in duration-300'>
                     <div className='p-4'>
-                        <form action="https://formsubmit.co/brizuelasideravicius@gmail.com" method="POST">
+                        <form action="https://formsubmit.co/ventas@ferreteriadivano.com" method="POST">
                             <div className='grid gap-4 w-full py-2'>
 
                                 <div className='flex flex-col'>
@@ -65,12 +65,12 @@ const Contact = () => {
                         <div className='text-center'>
                             <p className='uppercase pt-8'> Conecta con Nosotros</p>
                             <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
-                                <Link target='_blank' href='https://www.whatsapp.com/'>
+                                <Link target='_blank' href='https://www.whatsapp.com/quekoy'>
                                     <div className='rounded-full icolink shadow-lg shadow-grey-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                                         <AiOutlineWhatsApp/>
                                     </div>
                                 </Link>
-                                <Link target='_blank' href='https://www.linkedin.com/'>
+                                <Link target='_blank' href='https://www.linkedin.com/company/ferreteria-industrial-divano/'>
                                     <div className='rounded-full icolink shadow-lg shadow-grey-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                                         <AiOutlineLinkedin/>
                                     </div>
@@ -80,12 +80,7 @@ const Contact = () => {
                                         <AiOutlineMail/>
                                     </div>
                                 </Link>
-                                <Link href='/#portfolio'>
-                                    <div className='rounded-full icolink shadow-lg shadow-grey-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                                        <BsPersonVcard/>
-                                    </div>
-                                </Link>
-                                <Link target='_blank' href='https://www.instagram.com/'>
+                                <Link target='_blank' href='https://www.instagram.com/ferreteriadivano/'>
                                     <div className='rounded-full icolink shadow-lg shadow-grey-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                                         <AiOutlineInstagram/>
                                     </div>
